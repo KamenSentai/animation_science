@@ -1,6 +1,6 @@
 /*-------------------------*\
 
-***** letIABLES
+***** ELEMENTS
 
 \*-------------------------*/
 
@@ -20,7 +20,7 @@ const numberFormula = 50
 const numbersList = new Array()
 const verticalList = new Array()
 
-// Dill a tempory list
+// Fill a tempory list
 for (let i = 1; i <= numberFormula; i++) { numbersList.push(i) }
 for (let i = 0; i < numberFormula; i++) { verticalList.push((numbersList[i] - 1) * window.innerHeight * 0.75 / numberFormula) }
 const indexList = numbersList
