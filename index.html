@@ -7,13 +7,21 @@
         <title>Kamen Rider Build</title>
         <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+                extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "a11y/accessibility-menu.js"],
+                TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"] }
+            });
+        </script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
     </head>
 
     <body>
 
         <div class="container">
 
-            <!--| Formulas are written in LATEX programming language |-->
+            <!-- Formulas are written in LATEX programming language -->
             <div class="formulas">
 
                 <div id="Einstein" class="formula">
@@ -353,9 +361,9 @@
             </div>
 
             <div class="buttons">
-                <!--| Start button |-->
+                <!-- Start button -->
                 <a href="#" class="button" title="Henshin">Henshin</a>
-                <!--| Links buttons |-->
+                <!-- Links buttons -->
                 <a href="https://www.youtube.com/watch?v=vBSGh_65qwQ" class="link top" title="#" target="_blank">Scene of<br/>transformation</a>
                 <a href="https://www.youtube.com/watch?v=5k0wkbQ0rjY" class="link bottom" title="#" target="_blank">Opening of<br/>the show</a>
             </div>
@@ -369,12 +377,11 @@
                 <p class="text-4">...resulting in untold chaos.</p>
                 </div>
             </div>
-        
+
         </div>
-    
+
         <audio id="opening" src="assets/opening.mp3"></audio>
 
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/javascript" src="assets/script.js"></script>
 
     </body>
