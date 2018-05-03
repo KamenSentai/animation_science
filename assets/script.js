@@ -102,3 +102,19 @@ playButton.addEventListener('click', (event) =>
         setDatas()
     }, 80000)
 })
+
+/*-------------------------*\
+
+***** HIDE WARNING
+
+\*-------------------------*/
+
+window.setTimeout(() =>
+{
+    const $warning = document.body.querySelector('.warning')
+    $warning.style.opacity = '0'
+    setTimeout(() =>
+    {
+        $warning.style.display = 'none'
+    }, 1000)
+}, 5000)
