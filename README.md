@@ -25,7 +25,7 @@
   - Stirling
   - Euler
   - Minkowski
-  - Gausse
+  - Gauss
   - Jordan
   - Green
   - Fourier
